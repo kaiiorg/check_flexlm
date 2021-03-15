@@ -127,7 +127,7 @@ args = parser.parse_args()
 #######################################
 #Build command with arguments
 command = [
-	args.lmtools,
+	args.lmutil,
 	"lmstat",
 	"-a",
 	"-c",
